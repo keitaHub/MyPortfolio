@@ -290,7 +290,7 @@ Skill
 
 .skill-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   width: 48%;
   margin-bottom: 50px;
@@ -306,14 +306,14 @@ Skill
   flex: 1;
 }
 
-.skill-name {
+/* .skill-name {
   margin-bottom: 10px;
-}
+} */
 
-.skill-text {
+/* .skill-text {
   font-size: 14px;
   line-height: 1.8;
-}
+} */
 
 /*--------------------------------
 Works
@@ -373,7 +373,7 @@ Contact
 .contact-item img{
   width: 50px;
   margin :0 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .contact-text {
@@ -381,7 +381,7 @@ Contact
 }
 
 form div {
-  margin-bottom: 14px;
+  margin-bottom: 30px;
 }
 
 label {
@@ -403,20 +403,21 @@ textarea {
 input[type="text"],
 input[type="email"] {
   width: 100%;
-  max-width: 240px;
+  max-width: 350px;
 }
 textarea {
   width: 100%;
-  max-width: 480px;
-  height: 6rem;
+  max-width: 350px;
+  height: 8rem;
 }
 
 .button {
-  font-size: 1.375rem;
+  font-size: 1.1em;
   background: #5480a8;
   color: #fff;
   border-radius: 5px;
-  padding: 18px 32px;
+  padding: 15px 20px;
+  margin-top: 30px;
 }
 
 .button:hover{
@@ -726,14 +727,14 @@ input[type="submit"] {
     margin-bottom: 0;
   }
 
-  .skill-name {
+  /* .skill-name {
     margin-bottom: 5px;
-  }
+  } */
 
-  .skill-text {
+  /* .skill-text {
     font-size: 13px;
     line-height: 1.7;
-  }
+  } */
 
   /* Works */
   .works-name {
